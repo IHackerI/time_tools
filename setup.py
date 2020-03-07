@@ -24,8 +24,8 @@ setup(
     author_email='bulat.shaekhov@gmail.com',
     url='https://github.com/IHackerI/time_tools',
     packages=find_packages(),
-    install_requires=
-        open('requirements.txt').read().split('\n\r|\n')
+    install_requires=[]
+        #open('requirements.txt').read().split('\n\r|\n')
     ,
     include_package_data=True,
     zip_safe=False,
